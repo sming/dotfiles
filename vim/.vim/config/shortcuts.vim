@@ -1,5 +1,6 @@
 " Cycle through splits with tab
 nmap <Tab> <C-w>w
+nmap <S-Tab> <C-w>W
 
 " Easier direct split navigation with ctrl + homerow keys
 nnoremap <C-J> <C-W><C-J>

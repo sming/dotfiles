@@ -13,3 +13,7 @@ let g:ctrlp_by_filename=0
 " for fast search.
 " http://blog.patspam.com/2014/super-fast-ctrlp
 let g:ctrlp_user_command='ag %s -i --vimgrep --hidden -g ""'
+
+nmap <leader>p :CtrlP<CR>
+nmap <leader>b :CtrlPBuffer<CR>
+nmap <leader>n :CtrlPMRU<CR>
