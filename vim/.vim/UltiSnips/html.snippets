@@ -105,6 +105,14 @@ snippet a "<a>" w
 <a href="${1:http://www.url.com}"${2: target="_blank"}>${0:${VISUAL:Anchor Text}}</a>
 endsnippet
 
+snippet label "<label>" w
+<label for="${1:id}">${2:label}</label>
+endsnippet
+
+snippet input "<input>" w
+<input type="${1:text}" name="${2:name}">
+endsnippet
+
 snippet = "attribute" w
 ${1:attribute}="${2:value}"$0
 endsnippet

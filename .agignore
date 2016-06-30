@@ -6,6 +6,7 @@
 /doc
 .yarddoc
 coverage
+node_modules
 tmp
 .sass-cache
 *.ttf

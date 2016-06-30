@@ -2,7 +2,7 @@ bindkey -e
 bindkey '\ew' kill-region
 
 # Ctrl + r/s - incremental search
-bindkey "^r" history-incremental-search-backward
+bindkey "^r" history-incremental-pattern-search-backward
 
 # ?
 bindkey "^[[5~" up-line-or-history
