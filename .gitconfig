@@ -1,0 +1,13 @@
+[user]
+	email = peter@occamzrazor.com
+	name = Peter Kingswell
+[core]
+	excludesfile = /Users/peter/.gitignore_global
+[color]
+	diff = always
+[merge]
+	ff = only
+[push]
+	default = current
+[remote "origin"]
+	prune = true
